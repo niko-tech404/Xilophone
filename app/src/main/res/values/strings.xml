@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Xilophone</string>
+    <string name="key_C">C</string>
+    <string name="key_D">D</string>
+    <string name="key_E">E</string>
+    <string name="key_F">F</string>
+    <string name="key_G">G</string>
+    <string name="key_A">A</string>
+    <string name="key_B">B</string>
+
+
 </resources>
