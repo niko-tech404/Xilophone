@@ -6,14 +6,40 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#202124"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/instrument_title"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/tutorial"
+        android:textColor="#9AA0A6"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subtitle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
@@ -21,64 +47,77 @@
         <Button
             android:id="@+id/c_key"
             style="@style/KeyStyle"
-            android:layout_width="320dp"
+            android:layout_width="330dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
             android:backgroundTint="@color/red"
             android:text="@string/key_C"
+            android:textColor="@color/black"
             android:onClick="playC"/>
 
         <Button
             android:id="@+id/d_key"
             style="@style/KeyStyle"
-            android:layout_width="320dp"
+            android:layout_width="310dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
             android:backgroundTint="@color/orange"
             android:text="@string/key_D"
+            android:textColor="@color/black"
             android:onClick="playD"/>
 
         <Button
             android:id="@+id/e_key"
             style="@style/KeyStyle"
-            android:layout_width="320dp"
+            android:layout_width="290dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
             android:backgroundTint="@color/yellow"
             android:text="@string/key_E"
+            android:textColor="@color/black"
             android:onClick="playE"/>
 
         <Button
             android:id="@+id/f_key"
             style="@style/KeyStyle"
-            android:layout_width="320dp"
+            android:layout_width="270dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
             android:backgroundTint="@color/turquoise"
             android:text="@string/key_F"
+            android:textColor="@color/black"
             android:onClick="playF"/>
 
         <Button
             android:id="@+id/g_key"
             style="@style/KeyStyle"
-            android:layout_width="320dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
             android:backgroundTint="@color/green"
             android:text="@string/key_G"
+            android:textColor="@color/black"
             android:onClick="playG"/>
 
         <Button
             android:id="@+id/a_key"
             style="@style/KeyStyle"
-            android:layout_width="320dp"
+            android:layout_width="230dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
             android:backgroundTint="@color/blue"
             android:text="@string/key_A"
+            android:textColor="@color/black"
             android:onClick="playA"/>
 
         <Button
             android:id="@+id/b_key"
             style="@style/KeyStyle"
-            android:layout_width="320dp"
+            android:layout_width="210dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/purple"
             android:text="@string/key_B"
+            android:textColor="@color/black"
             android:onClick="playB"/>
 
     </LinearLayout>

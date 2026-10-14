@@ -1,12 +1,14 @@
 <resources>
     <string name="app_name">Xilophone</string>
-    <string name="key_C">C</string>
-    <string name="key_D">D</string>
-    <string name="key_E">E</string>
-    <string name="key_F">F</string>
-    <string name="key_G">G</string>
-    <string name="key_A">A</string>
-    <string name="key_B">B</string>
+    <string name="key_C">C (do)</string>
+    <string name="key_D">D (re)</string>
+    <string name="key_E">E (mi)</string>
+    <string name="key_F">F (fa)</string>
+    <string name="key_G">G (sol)</string>
+    <string name="key_A">A (la)</string>
+    <string name="key_B">B (si)</string>
+    <string name="tutorial">Tocca una barra per suonare</string>
+    <string name="instrument_title">Xylophone</string>
 
 
 </resources>
